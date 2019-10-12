@@ -9,7 +9,7 @@ dependencies {
 }
 
 allprojects {
-    group = "io.github.dector.PROJECT_NAME"
+    group = "io.github.dector.${rootProject.name}"
     version = "0.1-SNAPSHOT"
 
     repositories {
