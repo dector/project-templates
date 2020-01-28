@@ -6,7 +6,7 @@ plugins {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation(Deps.kotlin_coroutines)
+    //implementation(Deps.kotlin_coroutines)
 
     testImplementation(Deps.kotlin_test)
 }
