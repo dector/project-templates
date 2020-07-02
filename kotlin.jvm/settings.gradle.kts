@@ -1,4 +1,4 @@
-rootProject.name = "PROJECT_NAME"
+rootProject.name = "{{ PROJECT_NAME }}"
 
 //include(
 //    ":lib1",
