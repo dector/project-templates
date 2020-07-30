@@ -1,4 +1,4 @@
-package io.github.dector.project
+package space.dector.project
 
 fun main() {
     println("It works!")

@@ -12,7 +12,7 @@ dependencies {
 }
 
 allprojects {
-    group = "io.github.dector.${rootProject.name}"
+    group = "space.dector.${rootProject.name}"
     version = "0.1-SNAPSHOT"
 
     repositories {
