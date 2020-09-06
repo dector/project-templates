@@ -5,10 +5,9 @@ plugins {
 }
 
 dependencies {
-    implementation(kotlin("stdlib-jdk8"))
-    //implementation(Deps.kotlin_coroutines)
 
-    testImplementation(Deps.kotlin_test)
+    testImplementation(Deps.kotest.runner)
+    testImplementation(Deps.kotest.assertions)
 }
 
 allprojects {
@@ -21,6 +20,7 @@ allprojects {
 
     tasks.withType<KotlinCompile> {
         kotlinOptions.jvmTarget = "1.8"
+        kotlinOptions.freeCompilerArgs += "-Xopt-in=kotlin.RequiresOptIn"
     }
 }
 
