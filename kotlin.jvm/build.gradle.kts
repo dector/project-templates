@@ -1,13 +1,13 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version Versions.kotlin
+    kotlin("jvm") version Kotlin.version
 }
 
 dependencies {
 
-    testImplementation(Deps.kotest.runner)
-    testImplementation(Deps.kotest.assertions)
+    testImplementation(Kotest.runner)
+    testImplementation(Kotest.assertions)
 }
 
 allprojects {
