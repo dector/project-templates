@@ -4,7 +4,8 @@ object Kotlin {
 
 object Kotest {
     private val version = "4.2.3"
-    const val runner = "io.kotest:kotest-runner-junit5:$version"
-    const val assertions = "io.kotest:kotest-assertions-core:$version"
+
+    val runner = "io.kotest:kotest-runner-junit5:$version"
+    val assertions = "io.kotest:kotest-assertions-core:$version"
 }
 
